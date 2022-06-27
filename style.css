@@ -1,0 +1,85 @@
+/*Info*/
+
+@charset "UTF-8";
+
+/*Basic Styles*/
+
+html {
+          background-color: rgb(5, 238, 44);
+          background-image: url(images/favicon.svg.png);
+          background-size: cover;
+          background-position: center;
+          font-family: monospace, Arial, Helvetica, sans-serif;
+          font-size: 18px;
+          color: rgb(9, 97, 219);
+}
+
+/*Navbar/Footer Styles*/
+
+.nav-brand {
+          display: inline;
+}
+
+.navbar {
+          display: inline;
+          padding: 20px;
+}
+
+.navbar ul {
+          list-style-type: none;
+          display: inline;
+}
+
+.navbar ul li {
+          display: inline;
+          padding: 10px;
+}
+
+.navbar a {
+          text-decoration: none;
+          color: rgb(9, 97, 219);
+}
+
+.footer {
+          display: inline;
+          padding: 20px;
+}
+
+.footer ul {
+          list-style-type: none;
+          display: inline;
+}
+
+.footer ul li {
+          display: inline;
+          padding: 10px;
+}
+
+.footer a {
+          text-decoration: none;
+          color: rgb(9, 97, 219);
+}
+
+header {
+          position: fixed;
+}
+
+footer {
+          position: absolute;
+}
+
+/*Content Styles*/
+
+.contents {
+          text-align: center;
+          color: rgb(91, 173, 174);
+}
+
+.contents a {
+          text-decoration: underline;
+          color: rgb(58, 109, 110);
+}
+
+.contents a:hover {
+          text-decoration: underline;
+}
