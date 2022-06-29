@@ -1,85 +1,84 @@
-/*Info*/
-
 @charset "UTF-8";
 
-/*Basic Styles*/
-
 html {
-          background-color: rgb(5, 238, 44);
+          background-color: rgb(66, 238, 23);
           background-image: url(images/favicon.svg.png);
-          background-size: cover;
           background-position: center;
-          font-family: monospace, Arial, Helvetica, sans-serif;
+          background-size: cover;
           font-size: 18px;
-          color: rgb(9, 97, 219);
-}
-
-/*Navbar/Footer Styles*/
-
-.nav-brand {
-          display: inline;
+          font-family: monospace,Arial, Helvetica, sans-serif;
+          color: rgb(19, 230, 194);
+          margin: 0px;
 }
 
 .navbar {
+          background-color: white;
+          width: 100%;
+          padding: 5px;
+          border-bottom: 5px solid rgb(185, 213, 237);
+}
+
+.navbar h1 {
           display: inline;
-          padding: 20px;
 }
 
 .navbar ul {
-          list-style-type: none;
           display: inline;
 }
 
 .navbar ul li {
           display: inline;
-          padding: 10px;
+          list-style-type: none;
 }
 
-.navbar a {
+.navbar ul li a {
+          color: rgb(66, 238, 23);
           text-decoration: none;
-          color: rgb(9, 97, 219);
+}
+
+.navbar ul li a:hover {
+          opacity: 0.5;
+}
+
+.contents {
+          text-align: center;
+}
+
+.contents a {
+          color: rgb(66, 238, 23);
+          text-decoration: none;
+}
+
+.contents a:hover {
+          text-decoration: underline;
+          opacity: 0.5;
 }
 
 .footer {
+          background-color: white;
+          width: 100%;
+          padding: 5px;
+          border-top: 5px solid rgb(185, 213, 237);
+}
+
+.footer h1 {
           display: inline;
-          padding: 20px;
 }
 
 .footer ul {
-          list-style-type: none;
           display: inline;
 }
 
 .footer ul li {
           display: inline;
-          padding: 10px;
+          list-style-type: none;
 }
 
-.footer a {
+.footer ul li a {
+          color: rgb(66, 238, 23);
           text-decoration: none;
-          color: rgb(9, 97, 219);
 }
 
-header {
-          position: fixed;
-}
-
-footer {
-          position: absolute;
-}
-
-/*Content Styles*/
-
-.contents {
-          text-align: center;
-          color: rgb(91, 173, 174);
-}
-
-.contents a {
-          text-decoration: underline;
-          color: rgb(58, 109, 110);
-}
-
-.contents a:hover {
-          text-decoration: underline;
+.footer ul li a:hover {
+          opacity: 0.5;
 }
